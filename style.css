@@ -1,0 +1,91 @@
+* {
+    outline: 1px solid red;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+hr {
+    width: 10%;
+    background-color: red;
+    border: 2px solid red;
+}
+
+
+/* header */
+header {
+    /* flex-grow: 1; */
+    /* width: 100vw; */
+}
+
+header .title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #333;
+    color: lightgray;
+}
+
+header .section img {
+    width:100%;
+}
+
+header .nav {
+    background-color: #1b5557;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content:space-between;
+}
+
+header .nav h1 {
+    margin: 0 0 0 1em;
+    font-size: 3em;
+}
+
+header .nav div {
+    margin-right: 1em;
+}
+
+header .form {
+    text-align: center;
+    position: relative;
+    top: -5em;
+}
+
+header .form img {
+    width:80%;
+}
+
+
+/* main */
+main {
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+main div {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+main div img {
+    width:100%;
+}
+
+
+/* footer */
+footer {
+    flex-grow: 2;
+}
