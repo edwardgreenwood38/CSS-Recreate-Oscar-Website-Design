@@ -64,6 +64,7 @@ header .form {
 
 header .form img {
     width:80%;
+    border-radius: .5em;
 }
 
 
@@ -75,13 +76,39 @@ main {
 }
 
 main div {
-    width: 40%;
-    margin: 0 auto;
+    width: 60%;
+    margin: 1em auto;
     font-size: 1.5em;
 }
 
 main div img {
     width:100%;
+}
+
+main div span {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+main div span.underline {
+    text-decoration: underline;
+    vertical-align:baseline;
+    font-style: normal;
+}
+
+main .bottom {
+    background-color: #fbf5ee;
+    margin: 0 2em;
+}
+
+main .comments {
+    width: 90%;
+    font-size: .9em;
+}
+
+main li {
+    list-style-type:decimal;
+    margin-bottom: .5em;;
 }
 
 
